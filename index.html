@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Vikash Linktree</title>
+</head>
+<body>
+
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <div class="container">
+        <a href="" class="share-button">
+            <ion-icon class="share-icon" name="share-outline" onclick="share()"></ion-icon>
+        </a>
+        <div class="img-container">
+            <img class="img" src="profile.gif" alt="profile picture" />
+        </div>
+        <h1>@<span class="animated-text">Vikash</span></h1>
+
+        <a href="https://www.linkedin.com/in/vikashkumar721/" target="_blank" class="link-card">
+            <ion-icon class="icons" name="logo-linkedin"></ion-icon>
+            <p>Linkedin</p>
+            <ion-icon class="icons" name="copy-outline"></ion-icon>
+        </a>
+
+        <a href="https://github.com/vikash721" target="_blank" class="link-card">
+            <ion-icon class="icons" name="logo-github"></ion-icon>
+            <p>Github</p>
+            <ion-icon class="icons" name="copy-outline"></ion-icon>
+        </a>
+
+        <a href="https://twitter.com/vikash_code" target="_blank" class="link-card">
+            <ion-icon class="icons" name="logo-twitter"></ion-icon>
+            <p>Twitter</p>
+            <ion-icon class="icons" name="copy-outline"></ion-icon>
+        </a>
+
+        <a href="https://www.youtube.com/@CODING_4U" target="_blank" class="link-card">
+            <ion-icon name="logo-youtube"></ion-icon>
+            <p>Youtube</p>
+            <ion-icon class="icons" name="copy-outline"></ion-icon>
+        </a>
+
+        <a href="https://www.instagram.com/vikasharma_16/" target="_blank" class="link-card">
+            <ion-icon name="logo-instagram"></ion-icon>
+            <p>Instagram</p>
+            <ion-icon class="icons" name="copy-outline"></ion-icon>
+        </a>
+
+        <a href="mailto:vikshkumar355555@gmail.com" class="link-card">
+            <ion-icon name="mail-unread-outline"></ion-icon>
+            <p>Mail</p>
+            <ion-icon class="icons" name="copy-outline"></ion-icon>
+        </a>
+
+        <a href="" class="link-card" onclick="submitQuery()">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+            <p>Whatsapp Me</p>
+            <ion-icon class="icons" name="copy-outline"></ion-icon>
+        </a>
+    </div>
+
+    <div id="copyNotification" class="copy-notification">Link copied!</div>
+
+
+    
+    <div class="toggle-container">
+        <input type="checkbox" class="toggle-checkbox" id="toggle-light-mode" onclick="toggleLightMode()">
+        <label class="toggle-label" for="toggle-light-mode">
+            <span class="toggle-slider"></span>
+        </label>
+    </div>
+
+    <!-- adding modal -->
+
+    <!-- Modal Structure -->
+    <div id="whatsappModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <ion-icon name="logo-whatsapp" class="icons whatsapp-icon"></ion-icon>
+            <h2>Send a Message</h2>
+            <textarea id="whatsappMessage" rows="4" placeholder="Type your message here..."></textarea>
+            <button id="sendWhatsappMessage">Send</button>
+        </div>
+    </div>
+
+
+
+
+
+
+    
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

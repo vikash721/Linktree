@@ -341,7 +341,7 @@ img.img {
 
 /* Light mode styles */
 body.light-mode {
-  background-color: #d1d1d1; /* Set background color to a light gray */
+  background-color: red; /* Set background color to a light gray */
   color: #333; /* Set text color to dark gray */
 }
 

@@ -122,7 +122,7 @@ function toggleLightMode() {
 }
 
 
-const texts = ["Hey There!", "I am..", "Vikash","Tech Enthusiast","Connect with Me","And Explore"];
+const texts = ["Hey There!", "I am.... Vikash","Tech Enthusiast","Connect with Me","And Explore"];
 let count = 0;
 let index = 0;
 let currentText = "";
